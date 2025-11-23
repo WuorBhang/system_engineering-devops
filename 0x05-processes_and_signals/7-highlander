@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# A Bash script that loops forever, handles SIGTERM, and prints a defiant message
+# A Bash script that displays To infinity and beyond indefinitely and handles SIGTERM
 trap 'echo "I am invincible!!!"' TERM
 while true; do
     echo "To infinity and beyond"
